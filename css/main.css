@@ -1,0 +1,45 @@
+body {
+    background: #2980B9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+#logo-container {
+    height: 150px;
+    width: auto;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+#logo {
+    height: 180px;
+    width: auto;
+    margin-bottom: 20px;
+}
+.anim-btn {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    display: block;
+    position: relative;
+    background-color: #fcad26;
+    font-size: 16px;
+    font-weight: 300px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 25px 80px;
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow: 0 6px #efa424;
+    width: 100%;
+}
+
+.anim-btn:hover {
+    box-shadow: 0 4px #efa424;
+    top: 2px;
+}
+
+.anim-btn:active {
+    box-shadow: none;
+    top:  6px;
+}
